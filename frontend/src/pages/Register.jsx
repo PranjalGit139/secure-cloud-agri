@@ -16,7 +16,7 @@ export default function Register() {
         email,
         password,
         name,
-        role, // send selected role
+        role, 
       });
 
       alert("Registration successful! Please login.");
