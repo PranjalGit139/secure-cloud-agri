@@ -19,7 +19,7 @@ export default function ExpertDashboard() {
         const token = session.getIdToken().getJwtToken();
 
         const response = await axios.get(
-          "http://localhost:5000/api/data/farmers",
+          "https://secure-cloud-agri.onrender.com/api/data/farmers",
           { headers: { Authorization: `Bearer ${token}` } }
         );
 
@@ -44,7 +44,7 @@ export default function ExpertDashboard() {
       const token = session.getIdToken().getJwtToken();
 
       const response = await axios.get(
-        `http://localhost:5000/api/data/farmer/${farmerId}/files`,
+        `https://secure-cloud-agri.onrender.com/api/data/farmer/${farmerId}/files`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
 

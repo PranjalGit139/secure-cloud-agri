@@ -58,7 +58,7 @@ Selling Price: ${form.sellingPrice}
 Notes: ${form.notes}
 `;
 
-      const llmRes = await axios.post("http://localhost:5000/api/llm/generate", { prompt });
+      const llmRes = await axios.post("https://secure-cloud-agri.onrender.com/api/llm/generate", { prompt });
       var aiText = llmRes.data.output || "AI summary not available.";
 
 function cleanTextForPDF(text) {

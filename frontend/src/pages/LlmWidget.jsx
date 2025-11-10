@@ -12,7 +12,7 @@ export default function LlmWidget() {
     if (!input.trim()) return;
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/api/llm/generate", {
+      const res = await axios.post("https://secure-cloud-agri.onrender.com/api/llm/generate", {
         prompt: input,
       });
       setResponse(res.data.output || "No response received.");
