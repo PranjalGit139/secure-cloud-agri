@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import farmingImage from "../assets/farming.png"; // Place your farmer/farming image here
+
 
 export default function LandingPage() {
   const navigate = useNavigate();
@@ -19,13 +19,7 @@ export default function LandingPage() {
       </div>
 
       {/* Farming Image */}
-      <div className="mt-10">
-        <img
-          src={farmingImage}
-          alt="Farmer Farming"
-          className="w-full max-w-lg rounded-xl shadow-lg object-cover animate-fadeIn"
-        />
-      </div>
+     
 
       {/* Buttons */}
       <div className="mt-10 flex flex-col sm:flex-row gap-4">
