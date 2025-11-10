@@ -34,7 +34,7 @@ export default function ViewFiles() {
       const session = await Auth.currentSession();
       const token = session.getIdToken().getJwtToken();
 
-      await axios.delete(`http://localhost:5000/api/data/delete/${encodeURIComponent(key)}`, {
+      await axios.delete(`https://secure-cloud-agri.onrender.com/api/data/delete/${encodeURIComponent(key)}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 

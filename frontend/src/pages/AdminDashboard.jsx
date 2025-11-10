@@ -19,7 +19,7 @@ export default function AdminDashboard() {
         const token = session.getIdToken().getJwtToken();
 
         const response = await axios.get(
-          "http://localhost:5000/api/data/users",
+          "https://secure-cloud-agri.onrender.com/api/data/users",
           { headers: { Authorization: `Bearer ${token}` } }
         );
 
@@ -44,7 +44,7 @@ export default function AdminDashboard() {
       const token = session.getIdToken().getJwtToken();
 
       const response = await axios.get(
-        `http://localhost:5000/api/data/user/${username}/files`,
+        `https://secure-cloud-agri.onrender.com/api/data/user/${username}/files`,
         { headers: { Authorization: `Bearer ${token}` } }
       );
 
@@ -62,7 +62,7 @@ export default function AdminDashboard() {
       const session = await Auth.currentSession();
       const token = session.getIdToken().getJwtToken();
 
-      await axios.delete("http://localhost:5000/api/data/file", {
+      await axios.delete("https://secure-cloud-agri.onrender.com/api/data/file", {
         headers: { Authorization: `Bearer ${token}` },
         data: { key: fileKey },
       });
@@ -81,7 +81,7 @@ export default function AdminDashboard() {
       const session = await Auth.currentSession();
       const token = session.getIdToken().getJwtToken();
 
-      await axios.delete(`http://localhost:5000/api/data/user/${username}`, {
+      await axios.delete(`https://secure-cloud-agri.onrender.com/api/data/user/${username}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
 
