@@ -22,7 +22,6 @@ The system uses **AWS Cognito, S3, Lambda, API Gateway, and Amplify** to provide
 - 🔐 **User Authentication** using AWS Cognito  
 - 📤 **Upload Files** to AWS S3  
 - 🛡️ **Secure Cloud Storage** (IAM, S3 policies, encryption)  
-- ⚡ **Serverless Backend** using Lambda  
 - 🌐 **REST APIs** with AWS API Gateway  
 - 💻 **Responsive React Dashboard**  
 
