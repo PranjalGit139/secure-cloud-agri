@@ -15,6 +15,12 @@
 Secure Cloud Storage for Farm Data is a cloud-native web application designed to help farmers and agriculture organizations **securely upload, store, and manage farm-related files** such as crop images, soil reports, documents, and sensor-based data.
 
 The system uses **AWS Cognito, S3, API Gateway, and Amplify** to provide a highly scalable, secure, and serverless architecture.
+<p align="center">
+  <a href="https://secure-cloud-agri.vercel.app/">
+    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Site-brightgreen?style=for-the-badge" />
+  </a>
+</p>
+
 
 ---
 
