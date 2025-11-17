@@ -70,3 +70,12 @@ farm-data-storage/<br>
 │── package.json<br>
 │── README.md<br>
 │── amplify/<br>
+
+---
+
+## Important Log In
+
+Admin : pranjalik189@outlook.com - Pranjali@123 <br>
+Expert : omkalbhor9@gmail.com - Om@12345<br>
+Farmer : pranjalik189@gmail.com - Psk@1234<br>
+kulkarnisatish732@gmail.com - Satish@123<br>
